@@ -1,0 +1,24 @@
+[general]
+name=NDVI Calculator with Atmospheric Correction
+description=Plugin pour calculer le NDVI avec correction atmosphérique à partir des images Landsat (fichier MTL)
+version=1.0
+author=Orlando
+email=alidaorlando.andrinantenaina@etu.uae.ac.ma 
+
+# Version de QGIS requise - CORRECTION IMPORTANTE
+qgisMinimumVersion=3.0
+qgisMaximumVersion=3.99
+
+# Détails supplémentaires
+about=Ce plugin permet de sélectionner un répertoire contenant des bandes Landsat et un fichier MTL, applique une correction atmosphérique, calcule le NDVI et sauvegarde le résultat.
+
+category=Raster Analysis
+tracker=https://github.com/votre_nom/ndvi_plugin
+repository=https://github.com/votre_nom/ndvi_plugin
+
+# Pour QGIS 3.x
+# Les versions suivantes sont recommandées
+changelog=Version initiale - Support des images Landsat avec MTL
+
+# Dépendances (optionnel)
+#depends=
